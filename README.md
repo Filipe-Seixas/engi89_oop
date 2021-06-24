@@ -109,22 +109,21 @@ print(type(requests_api.headers))  # display website headers
 ## Four Pillars os OOP
 ### Abstraction
 
-- 
-- 
+- Hide implementation or other features inside something, i.e. a function, so that only relevant operations are shown.
 ### Inheritance
 
-- 
-- 
+- Ability of creating a child class which reuses all methods and fields from the parent class and can have its own unique methods.
+- Animal > Reptile > Snake > Python
+- It pushes the DRY concept by allowing us to reuse code
 ### Encapsulation
 
-- 
-- 
+- It promotes security by having each object keep a private state inside a class.
+- Other objects don't have access to it, unless they are explicitly allowed
 ### Polymorphism
 
-- 
-- 
+- Having a child class define its unique behaviour and methods while sharing the same methods from its parent class.
 
-
+## Example Exercise
 - step one create animal.py file to create a parent class
 - step two create reptile.py to abstract data and inherit from animal.py
 - step three create snake.py
