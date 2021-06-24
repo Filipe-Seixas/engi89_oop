@@ -92,6 +92,7 @@ print(sys.path)
 - `pip install requests`
 - we can make an API call to any web address using python requests package
 - pip is a package manager in python to install any packages
+- To check version `pip -V`
 
 ```python
 import requests
@@ -104,3 +105,28 @@ if requests_api.status_code == 200:
 print(type(requests_api.headers))  # display website headers
 # print(requests_api.content)
 ```
+
+## Four Pillars os OOP
+### Abstraction
+
+- 
+- 
+### Inheritance
+
+- 
+- 
+### Encapsulation
+
+- 
+- 
+### Polymorphism
+
+- 
+- 
+
+
+- step one create animal.py file to create a parent class
+- step two create reptile.py to abstract data and inherit from animal.py
+- step three create snake.py
+- step four create python.py and at this point we should be able to utilise inheritance from multiple 
+  classes - everything available from animal class to python
